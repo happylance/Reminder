@@ -1,6 +1,5 @@
 #!/bin/bash
 
-set -ex
 message="$1"
 [ -z "$1" ] && message="It is $(date +%H:%M) now."
 
